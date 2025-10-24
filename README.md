@@ -126,26 +126,38 @@ Aqui estão as evidências do funcionamento completo do pipeline de CI/CD, confo
 ### 1. Build e Push no Docker Hub
 Interface do Docker Hub mostrando a imagem sendo publicada com sucesso.
 
-![Build e Push no Docker Hub](<img width="933" height="664" alt="Image" src="https://github.com/user-attachments/assets/25b51f96-9351-474e-8154-71457979e169" />)
+Build e Push no Docker Hub
+
+<img width="933" height="664" alt="Image" src="https://github.com/user-attachments/assets/25b51f96-9351-474e-8154-71457979e169" />
 
 ### 2. Atualização Automática dos Manifestos
 Commit automático feito pelo "GitHub Actions Bot" no repositório `projeto-manifests`, atualizando a tag da imagem.
 
-![Atualização dos Manifestos](<img width="1359" height="670" alt="Image" src="https://github.com/user-attachments/assets/d6f205d0-81b5-4763-b657-d797a1767aa8" />)
+Atualização dos Manifestos
+
+<img width="1359" height="670" alt="Image" src="https://github.com/user-attachments/assets/d6f205d0-81b5-4763-b657-d797a1767aa8" />
 
 ### 3. ArgoCD Sincronizado
 Captura de tela da interface do ArgoCD mostrando a aplicação com status `Healthy` (Saudável) e `Synced` (Sincronizado).
 
-![ArgoCD Sincronizado](<img width="394" height="359" alt="Image" src="https://github.com/user-attachments/assets/15dae24d-6eb6-4d35-8840-a82051ea658d" />)
+ArgoCD Sincronizado
+
+<img width="394" height="359" alt="Image" src="https://github.com/user-attachments/assets/15dae24d-6eb6-4d35-8840-a82051ea658d" />
 
 ### 4. Pods em Execução no Kubernetes
 Print do terminal com o comando `kubectl get pods` mostrando os pods da aplicação rodando.
 
-![Pods em Execução](<img width="632" height="157" alt="Image" src="https://github.com/user-attachments/assets/847905aa-8d99-47e3-ae36-74b620447d62" />)
+Pods em Execução
+
+<img width="632" height="157" alt="Image" src="https://github.com/user-attachments/assets/847905aa-8d99-47e3-ae36-74b620447d62" />
 
 ### 5. Resposta da Aplicação
 Print do navegador (ou `curl`) acessando `http://localhost:8081/` e mostrando a mensagem atualizada após o ciclo de CI/CD.
 
-![Resposta da Aplicação antes](<img width="595" height="257" alt="Image" src="https://github.com/user-attachments/assets/c48f5e4b-0f60-4e57-a33f-5e89fb6f7a45" />)
+Resposta da Aplicação antes
 
-![Resposta da Aplicação depois](<img width="719" height="258" alt="Image" src="https://github.com/user-attachments/assets/33abdac1-c12e-4f90-ab49-2788e0e64786" />)
+<img width="595" height="257" alt="Image" src="https://github.com/user-attachments/assets/c48f5e4b-0f60-4e57-a33f-5e89fb6f7a45" />
+
+Resposta da Aplicação depois
+
+<img width="719" height="258" alt="Image" src="https://github.com/user-attachments/assets/33abdac1-c12e-4f90-ab49-2788e0e64786" />
